@@ -18,5 +18,5 @@ test("Amazon", async function ({ browser }) {
   const cartPage = poManager.getCartPage();
   await cartPage.cart(data.itemName);
 
-  //wait page.pause();
+  //await page.pause();
 });
